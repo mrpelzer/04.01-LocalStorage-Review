@@ -13,16 +13,6 @@
 <main class="container py-5">
   <h2 class="text-center mb-5">LocalStorage CRUD (Separated)</h2>
 
-    <!-- SAVE -->
-    <div class="card mb-4 shadow-sm">
-        <div class="card-body">
-        <h5 class="card-title">Key</h5>
-
-        <input id="saveKey" class="form-control mb-2" placeholder="Key">
-
-        <button class="btn btn-primary" onclick="saveKey()">Save Key</button>
-        </div>
-    </div>
 
   <!-- SAVE -->
   <div class="card mb-4 shadow-sm">
@@ -32,7 +22,7 @@
       <input id="saveKey" class="form-control mb-2" placeholder="Key">
       <input id="saveValue" class="form-control mb-3" placeholder="Value">
 
-      <button class="btn btn-primary" onclick="saveData()">Save</button>
+      <button class="btn btn-primary save">Save</button>
     </div>
   </div>
 
@@ -44,7 +34,7 @@
       <input id="loadKey" class="form-control mb-2" placeholder="Key">
       <input id="loadValue" class="form-control mb-3" placeholder="Loaded value" disabled>
 
-      <button class="btn btn-warning" onclick="loadData()">Load</button>
+      <button class="btn btn-warning load">Load</button>
     </div>
   </div>
 
@@ -56,7 +46,7 @@
       <input id="updateKey" class="form-control mb-2" placeholder="Key">
       <input id="updateValue" class="form-control mb-3" placeholder="New value">
 
-      <button class="btn btn-success" onclick="updateData()">Update</button>
+      <button class="btn btn-success update">Update</button>
     </div>
   </div>
 
